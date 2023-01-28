@@ -12,9 +12,11 @@
     "devDependencies": {
         "cross-env": "^5.2.1",
         "laravel-mix": "^6.0.39",
-        "resolve-url-loader": "^5.0.0"
+        "resolve-url-loader": "^5.0.0",
+        "vue-loader": "^16.8.3"
     },
     "dependencies": {
-        "@yogigr/escp-client": "^1.0.0-rc.2"
+        "@yogigr/escp-client": "^1.0.0-rc.2",
+        "vue": "^3.2.45"
     }
 }
