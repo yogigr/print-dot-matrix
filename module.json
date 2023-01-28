@@ -1,0 +1,45 @@
+{
+    "alias": "print-dot-matrix",
+    "icon": "print",
+    "version": "1.0.0",
+    "active": 1,
+    "providers": [
+        "Modules\\PrintDotMatrix\\Providers\\Main",
+        "Modules\\PrintDotMatrix\\Providers\\Event"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "reports": [],
+    "widgets": [],
+    "settings": [
+        {
+            "type": "text",
+            "name": "host",
+            "title": "print-dot-matrix::general.host",
+            "attributes": {
+                "required": "required"
+            },
+            "rules": "required|string"
+        },
+        {
+            "type": "text",
+            "name": "port",
+            "title": "print-dot-matrix::general.port",
+            "attributes": {
+                "required": "required"
+            },
+            "rules": "required|numeric"
+        },
+        {
+            "type": "text",
+            "name": "token",
+            "title": "print-dot-matrix::general.token",
+            "attributes": {
+                "required": "required"
+            },
+            "rules": "required|numeric"
+        }
+    ],
+    "extra-modules": {}
+}
