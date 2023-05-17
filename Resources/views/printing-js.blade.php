@@ -1,4 +1,4 @@
-<script src={{asset('modules/print-dot-matrix/js/print-dot-matrix.min.js')}}></script>
+<script src={{asset('public/modules/print-dot-matrix/js/print-dot-matrix.min.js')}}></script>
 <script type="text/javascript">
     const printer = {!! $printer !!};
     const doc = {!! json_encode($document) !!};
