@@ -48,7 +48,7 @@
         
         escp.text(issued_at, 16);
         escp.text(doc.document_number, 17, false);
-
+        escp.raw += lf;
         escp.text("---------------------------------", 33);
     
         //items
@@ -58,7 +58,7 @@
             escp.text(parseFloat(item.quantity).toLocaleString('id'), 2, false);
             escp.text(parseFloat(item.total).toLocaleString('id'), 11, false);
         })
-
+        escp.raw += lf;
         escp.text("---------------------------------", 33);
 
         //total
